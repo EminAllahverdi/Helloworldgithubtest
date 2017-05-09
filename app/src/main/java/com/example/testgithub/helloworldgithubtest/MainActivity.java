@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent df = new Intent(MainActivity.this, Sako.class);
                 startActivity(df);
+
+                int a = 4;
+                int x = 5;
+                int c = a + x;
             }
         });
 
